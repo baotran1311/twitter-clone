@@ -23,7 +23,7 @@ const Sidebar = () => {
     },
     {
       label: "Profile",
-      href: "/user/123",
+      href: "/users/123",
       icon: FaUser,
       auth: true,
     },
@@ -49,6 +49,7 @@ const Sidebar = () => {
               label="Logout"
             />
           )}
+
           <SidebarTweetButton />
         </div>
       </div>
